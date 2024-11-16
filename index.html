@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Web Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+	<link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo-holder">
+			<div class="logo">L</div>
+			<div class="logo-text">Portfolio Website</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#contact" class="button">Contact Me</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+			</a>
+		</nav>
+	</header>
+	<main>
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Prabhjot Singh
+					</h1>
+					<p>
+						 <span>I'm a Web developer.</span>
+					</p>
+					<div class="call-to-action">
+						<a href="./assets/Resume.pdf" class="button black">
+							View Resume
+						</a>
+						<a href="#contact" class="button white">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+						<a href="https://github.com/Prabh-84">
+							<img src="./img/github.png" alt="GitHub" width="48" />
+						</a>
+						<a href="https://www.linkedin.com/in/prabhjotsingh84/">
+							<img src="./img/linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="./img/me4.jpg" alt="Prabhjot Singh" width="100%" />
+			</div>
+		</section>
+		<section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./img/html.png" alt="HTML" width="128" />
+					<img src="./img/css.png" alt="CSS" width="128" />
+					<img src="./img/javascript.png" alt="JS" width="128" />
+					<img src="./img/C.png" width="128" alt="C" />
+                    <img src="./img/C++.png" width="128" alt="C++" />
+					<img src="./img/react.png" width="128" alt="React" />
+                    <img src="./img/Nodejs.png" width="128" alt="React" />
+                    <img src="./img/Express js.png" width="128" alt="React" />
+					<img src="./img/nextjs.png" width="128" alt="Next JS" />
+                    <img src="./img/Mongodb.png" width="128" alt="Mongodb">
+					<img src="./img/vscode.png" width="128" alt="VS Code" />
+					<img src="./img/python.png" width="128" alt="Python" />
+					<img src="./img/html.png" alt="HTML" width="128" />
+					<img src="./img/css.png" alt="CSS" width="128" />
+					<img src="./img/javascript.png" alt="JS" width="128" />
+					<img src="./img/C.png" width="128" alt="C" />
+                    <img src="./img/C++.png" width="128" alt="C" />
+					<img src="./img/react.png" width="128" alt="React" />
+					<img src="./img/nextjs.png" width="128" alt="Next JS" />
+                    <img src="./img/Mongodb.png" width="128" alt="Mongodb"/>
+					<img src="./img/vscode.png" width="128" alt="VS Code" />
+					<img src="./img/python.png" width="128" alt="Python" />
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="skills container">
+			<h2>
+				<small>About Me</small>
+				Skills
+			</h2>
+			<div class="holder-blue">
+				<div class="left-column">
+					<h3>Skills</h3>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>React</li>
+						
+					</ul>
+					
+					<ul>
+						<li>Node.js</li>
+						<li>Express</li>
+                        <li>Mongodb</li>
+						
+					</ul>
+                    <ul>
+						<li>Git</li>
+						<li>Git hub</li>
+					</ul>
+                    
+					<ul>
+						<li>C</li>
+						<li>C++</li>
+						<li>Python</li>
+						
+					</ul>
+                    
+				</div>
+				<div class="right-column">
+					<h3>A bit about me</h3>
+					<p>
+						Hi, I’m Prabhjot, a Computer Engineering student at Thapar Institute of Engineering & Technology with a strong foundation in web development and a passion for creating impactful digital experiences. With hands-on experience in the MERN stack. I've built projects that enhance my practical knowledge and problem-solving skills in full-stack development. Currently, I’m focused on strengthening my Data Structures and Algorithms.
+					</p>
+					
+				</div>
+			</div>
+		</section>
+		
+		</section>
+    </section>
+    <section id="projects" class="bento container">
+        <h2>
+          <small>Previous</small>
+          Completed Projects
+        </h2>
+        <div class="bento-grid">
+          <div class="bento-item">
+            <h3>Blog Application </h3>
+            <a href="https://github.com/Prabh-84/Blog-Application" target="_blank" class="github-link">View on GitHub</a>
+          </div>
+          <div class="bento-item">
+            <h3>Url shortner </h3>
+            <a href="https://github.com/Prabh-84/Url-shortner" target="_blank" class="github-link">View on GitHub</a>
+          </div>
+          <div class="bento-item">
+            <h3>Tic-Tac-Toe</h3>
+            <a href="https://github.com/Prabh-84/Tic-Tac-Toe-using-Reactjs" target="_blank" class="github-link">View on GitHub</a>
+          </div>
+          <div class="bento-item">
+            <h3>Amazone clone</h3>
+            <a href="https://github.com/Prabh-84/Amazon-website-clone" target="_blank" class="github-link">View on GitHub</a>
+          </div>
+        </div>
+      </section>
+      
+          
+      <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>B.E. in Computer Engineering</h3>
+            <p>Thapar Institute of Engineering & Technology</p>
+            <p>Expected Graduation: 2027</p>
+            
+    </section>
+    
+
+        <h2>
+            <small>Get in Touch</small>
+            Contact Me
+        </h2>
+        <section id="contact" class="contact container">
+			
+			<div class="contact-info">
+				<p>If you’d like to discuss a project or just want to say hi, feel free to reach out!</p>
+				<ul>
+					<li>Email: <a href="mailto:prabhjot@tiet.ac.in">honey200509052ndgmail.com</a></li>
+					<li>Phone: +91 8146822448</li>
+					<li>Location: Patiala, Punjab, India</li>
+				</ul>
+				<div class="social-links">
+					<a href="https://github.com/Prabh-84"><img src="./img/github.png" alt="GitHub" width="48"></a>
+					<a href="https://www.linkedin.com/in/prabhjotsingh84/"><img src="./img/linkedin.png" alt="LinkedIn" width="48"></a>
+				</div>
+			</div>
+			
+		</section>
+	</main>
+</body>
+</html>
+
+
+
